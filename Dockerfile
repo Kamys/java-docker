@@ -2,4 +2,4 @@
 FROM openjdk:11
 WORKDIR /app
 COPY build/libs/*.jar ./application.jar
-CMD ["java", "./application.jar"]
+CMD ["java", "-jar", "./application.jar"]
